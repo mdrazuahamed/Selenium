@@ -19,7 +19,7 @@ public class SellIntroduction {
 
         driver.get("https://hems-training-admin.alhaiatululya.org/login");
         driver.findElement(By.id("username")).sendKeys("dsi.admin");
-        driver.findElement(By.name("password")).sendKeys("hems2022");
+        driver.findElement(By.name("password")).sendKeys("GibePassword");
         driver.findElement(By.cssSelector("button#submit")).click();
 //        System.out.println(driver.getTitle());
 //        System.out.println(driver.getCurrentUrl());
